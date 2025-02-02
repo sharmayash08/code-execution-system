@@ -12,7 +12,7 @@ app.use(express.json());
 const CONTAINERS = {
     cpp: "cpp_executor",
     java: "java_executor",
-    python: "python_executor",
+    // python: "python_executor",
 };
 
 function startContainers() {
