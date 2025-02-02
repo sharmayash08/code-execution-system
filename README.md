@@ -3,8 +3,8 @@
 This application allows users to execute code in multiple programming languages (C++, Java, Python, and JavaScript) using persistent Docker containers. It provides an API to run the code with input and output handling, built with **Node.js**, **Express.js**, and **Docker**.
 
 ## Tech Stack 🛠️
-![nodejs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white);
-![expressjs](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white);
+![nodejs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![expressjs](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 Docker 🐳
 AWS EC2 ☁️
 PM2 ⚙️
