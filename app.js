@@ -6,7 +6,11 @@ const fs = require("fs");
 const { execSync, exec } = require("child_process");
 
 const app = express();
-app.use(cors());
+app.use(cors({
+    origin: 'https://code-execution-system-frontend.vercel.app/', // Replace with your frontend URL
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    allowedHeaders: ['Content-Type', 'Authorization']
+  }));
 app.use(express.json());
 
 const CONTAINERS = {
